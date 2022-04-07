@@ -13,6 +13,9 @@ jobs:
       - name: Compile Code
         run: ./.github/scripts/compile_script.sh "${pwd}"
         shell: bash
-      - name: Run program
-        run: ./submission
+      - name: Run program (yyyYYY tutututututu)
+        run: ./submission < ./.github/scripts/input1
+        shell: bash
+      - name: Run program (A-B-C, is easy as 1-2-3. Are simple as do-re-mi. A-B-C, 1-2-3, baby, you and me girl)
+        run: ./submission < ./.github/scripts/input2
         shell: bash
